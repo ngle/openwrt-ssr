@@ -118,7 +118,7 @@ o = s:option(ListValue, "protocol", translate("Protocol"))
 for _, v in ipairs(protocol) do o:value(v) end
 o.rmempty = false
 
---Add Protocol Param
+---Add Protocol Param
 o = s:option(Value, "protocol_param", translate("Protocol Param"))
 
 o = s:option(ListValue, "obfs", translate("Obfs"))
